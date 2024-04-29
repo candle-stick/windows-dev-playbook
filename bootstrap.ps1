@@ -108,7 +108,9 @@ $packages = @(
     "obsidian",
     "starship",
     "nerd-fonts-jetbrainsmono",
-    "powertoys"
+    "powertoys",
+    "geforce-game-ready-driver",
+    "tailscale",
 )
 
 if ([bool](Get-Command -Name 'choco' -ErrorAction SilentlyContinue)) {
